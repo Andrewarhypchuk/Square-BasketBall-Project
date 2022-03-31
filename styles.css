@@ -1,0 +1,95 @@
+body{
+    background-color: gainsboro;
+}
+/* task1 */
+.description{
+    box-shadow: 5px 5px 5px grey;
+    width:90%;
+    border:2px solid grey;
+    border-radius: 20px;
+    padding:10px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.yellow_text{
+    color:yellow;
+}
+.blue_text{
+    color:blue;
+}
+.green_text{
+    color:green;
+}
+
+table{
+    width:500px;
+    height:500px;
+    border:1px solid black; 
+}
+tr{
+    width:500px;
+}
+td{
+    width:166px;
+    height:166px;
+    text-align:center;
+    line-height: 166px;
+    font-size: 25px;
+    border:1px solid black; 
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+/* task2 */
+.play{
+    width:250px;
+    height:50px;
+    margin:0 auto;
+    font-size: 35px;
+}
+#task3{
+
+    width:600px;
+    height:330px;
+    position:relative;
+}
+#court{
+    width:600px;
+    height:330px;
+    cursor: pointer;
+}
+#ball{
+    width:40px;
+    height:40px;
+    position: absolute;
+    left:280px;
+    top:145px;
+    transition-duration: 2s;
+}
+.count{
+    width:600px;
+    display: flex;
+    justify-content:space-between;
+}
+.teamA{
+    display:inline-block;
+    font-size: 25px;
+    }
+.teamB{
+    display:inline-block;
+    font-size: 25px;
+        }
+.alert{
+    width:600px;
+    height:80px;
+    text-align:center;
+    line-height:50px;
+}        
+
